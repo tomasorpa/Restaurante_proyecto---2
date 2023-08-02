@@ -1,0 +1,174 @@
+html{
+    scroll-behavior: smooth;
+} body{
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #0e2046;
+}
+nav {
+    display: flex;
+    align-items: center;
+    height: 11vh;
+    justify-content: space-around;
+    padding: 0 3%;
+    margin: 0px auto;
+    position: fixed;
+    width: 100vw;
+    border-bottom:1px solid #0e204617;
+    background-color: rgb(255, 255, 255);
+}
+nav a{
+    color: #0e2046;
+    text-decoration: none;
+}
+.logo{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+.header__right a{
+    margin: 0 100px;
+    font-size: 18px;
+    font-family: 'Rubik Puddles', cursive;
+}
+.main__carrusel__imagen img{
+    width: 98.79vw;
+    height: 89vh;
+    margin:70px 0 0 0;
+}
+.main__home--intro{
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items:center ;
+}
+.main__home--intro h2{
+    font-size: 40px;
+    font-family: 'Rubik Puddles', cursive;
+}
+.main__home--intro h2,p{
+    width: 20vw;
+}
+.main__home--intro img{
+    height: 50vh;
+}
+.main__home--intro p{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.div__entradas h2{
+    margin: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.men__h2{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+.section__background--menu{
+    height: 100%;
+    background: url(img/pescado-1.jpg) no-repeat center center/cover;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+    padding-bottom:80px ;
+}
+.div__entradas,.div__plato--menu,.div__mariscos--menu{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.div__entradas--menu{
+    display: flex;
+    flex-direction: column;
+}
+.div__entradas--info, .div__plato--info,.div__mariscos--info{
+    display: flex;
+    gap: 150px;
+    font-size: 30px;
+}
+.menu__plato{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: end;
+    font-size: 30px;
+}
+.div__mariscos--menu{
+    margin-top: 535px;
+    height: 50%;
+}
+.footer__section--container{
+    background-color: #0e2046;
+    color: rgb(255, 255, 255);
+}
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer__content h3{
+    font-size: 25px;
+}
+.footer__section--container h2, i{
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Rubik Puddles', cursive;
+    text-align: center;
+    padding: 20px;
+}
+.footer__contact i{
+    color: rgb(255, 255, 255);
+    width: 20%;
+    
+}
+.footer__about,.footer__contact,.footer__form{
+    width: 20%;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__form{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.form input,.form a{
+    height: 50px;
+    border: 1px white solid;
+    padding: 1px 20px;
+    
+    background-color: #0e2046;
+}
+.form input{
+    border-radius: 25px 0 0 25px ;
+    
+}
+.form a{
+    border-radius: 0 25px 25px 0;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+h4{
+    margin: 0;
+    height: 50px;
+    padding: 20px;
+}

@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #0e2046;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 11vh;
+    justify-content: space-around;
+    padding: 0 3%;
+    margin: 0px auto;
+    position: fixed;
+    width: 100vw;
+    border-bottom: 1px solid #0e204617;
+    background-color: rgb(255, 255, 255);
+}
+
+nav a {
+    color: #0e2046;
+    text-decoration: none;
+}
+
+.logo , main h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+.header__right a {
+    margin: 0 100px;
+    font-size: 18px;
+    font-family: 'Rubik Puddles', cursive;
+}
+main{
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-example input{
+    width: 96%;
+}
+.section__formulario, picture{
+    width: 50vw;
+}
+main h3{
+    margin: 2vh 0 5vh 0;
+}
+.form__div--text input {
+    padding: 3% 3% 30%;
+    width: 90%;
+}
+.form__div--text {
+    margin: 2% 0;
+}
+.section__formulario{
+    padding: 0 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form__nombres,.form__contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 15vw;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #0e20461f;
+    border: 1px solid black; }
+.footer__section--container {
+    background-color: #0e2046;
+    color: rgb(255, 255, 255);
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer__content h3 {
+    font-size: 25px;
+}
+
+.footer__section--container h2,
+i {
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Rubik Puddles', cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer__contact i {
+    color: rgb(255, 255, 255);
+    width: 20%;
+
+}
+
+.footer__about,
+.footer__contact,
+.footer__form {
+    width: 20%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__form {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input,
+.form a {
+    height: 50px;
+    border: 1px white solid;
+    padding: 1px 20px;
+
+    background-color: #0e2046;
+}
+
+.form input {
+    border-radius: 25px 0 0 25px;
+
+}
+
+.form a {
+    border-radius: 0 25px 25px 0;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+h4 {
+    margin: 0;
+    height: 50px;
+    padding: 20px;
+}
